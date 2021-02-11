@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/battlebackdrop.png-07e4d1f11fabf87350ad4296c7038fcc.stex"
+path="res://.import/gem_grid.png-9cbed46a9895af071a49ca4f66616deb.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://battlebackdrop.png"
-dest_files=[ "res://.import/battlebackdrop.png-07e4d1f11fabf87350ad4296c7038fcc.stex" ]
+source_file="res://gem_grid.png"
+dest_files=[ "res://.import/gem_grid.png-9cbed46a9895af071a49ca4f66616deb.stex" ]
 
 [params]
 
