@@ -16,8 +16,8 @@ _global_script_class_icons={
 [application]
 
 config/name="3by3pvp"
-run/main_scene="res://battle_screen.tscn"
-config/icon="res://icon.png"
+run/main_scene="res://scenes/battle_screen.tscn"
+config/icon="res://assets/icon.png"
 
 [display]
 

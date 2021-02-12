@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/gem_grid.png-9cbed46a9895af071a49ca4f66616deb.stex"
+path="res://.import/gold_gem.png-efe7035aa3c3035103c9d9594d43a589.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gem_grid.png"
-dest_files=[ "res://.import/gem_grid.png-9cbed46a9895af071a49ca4f66616deb.stex" ]
+source_file="res://assets/gems/gold_gem.png"
+dest_files=[ "res://.import/gold_gem.png-efe7035aa3c3035103c9d9594d43a589.stex" ]
 
 [params]
 
