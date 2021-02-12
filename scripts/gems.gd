@@ -34,5 +34,5 @@ func fill_matrix():
 		for j in 8:
 			var gem = gems[(randi()%7)].instance()
 			add_child(gem)
-			gem.position = Vector2(17+67*j,224+17+67*i)
+			gem.position = Vector2(16+69*j,224+16+69*i)
 			gemMatrix[i][j] = gem
