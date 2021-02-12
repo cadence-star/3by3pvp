@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/skull_gem.png-5aa2fed1717e5d3deab920b9cb40ecb1.stex"
+path="res://.import/skull_gem.png-a65e05a16fe6bc974fc3e8ac76ea05e4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gems/skull_gem.png"
-dest_files=[ "res://.import/skull_gem.png-5aa2fed1717e5d3deab920b9cb40ecb1.stex" ]
+source_file="res://assets/gems/skull_gem.png"
+dest_files=[ "res://.import/skull_gem.png-a65e05a16fe6bc974fc3e8ac76ea05e4.stex" ]
 
 [params]
 

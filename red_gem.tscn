@@ -1,7 +1,0 @@
-[gd_scene load_steps=3 format=2]
-
-[ext_resource path="res://gem.tscn" type="PackedScene" id=1]
-[ext_resource path="res://gems/red_gem.png" type="Texture" id=2]
-
-[node name="red_gem" instance=ExtResource( 1 )]
-texture = ExtResource( 2 )
