@@ -1,0 +1,39 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://gem_grid.png" type="Texture" id=1]
+[ext_resource path="res://gems_tileset.tres" type="TileSet" id=2]
+
+[node name="battle_screen" type="Node2D"]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="background" type="CanvasLayer" parent="."]
+layer = 0
+
+[node name="grid" type="TextureRect" parent="background"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -288.0
+margin_top = -288.0
+margin_right = 288.0
+margin_bottom = 288.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource( 1 )
+stretch_mode = 5
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="gems" type="CanvasLayer" parent="."]
+
+[node name="gems_map" type="TileMap" parent="gems"]
+tile_set = ExtResource( 2 )
+centered_textures = true
+format = 1
+__meta__ = {
+"_edit_lock_": true
+}
