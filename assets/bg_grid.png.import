@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/gem_grid.png-e3efc9ba972c2fa45fa8c60a72d21ee4.stex"
+path="res://.import/bg_grid.png-06471dc6290b32f5764fb3b16c036d57.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/gem_grid.png"
-dest_files=[ "res://.import/gem_grid.png-e3efc9ba972c2fa45fa8c60a72d21ee4.stex" ]
+source_file="res://assets/bg_grid.png"
+dest_files=[ "res://.import/bg_grid.png-06471dc6290b32f5764fb3b16c036d57.stex" ]
 
 [params]
 
