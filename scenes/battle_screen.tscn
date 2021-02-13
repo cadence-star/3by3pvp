@@ -23,7 +23,7 @@ margin_bottom = 288.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource( 1 )
-stretch_mode = 5
+stretch_mode = 6
 __meta__ = {
 "_edit_use_anchors_": false
 }
