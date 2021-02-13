@@ -39,4 +39,3 @@ vram_compression/import_etc=true
 vram_compression/import_etc2=false
 batching/precision/uv_contract=true
 quality/depth/hdr=false
-environment/default_environment="res://default_env.tres"
