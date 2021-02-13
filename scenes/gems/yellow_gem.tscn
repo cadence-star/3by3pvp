@@ -4,5 +4,7 @@
 [ext_resource path="res://assets/gems/yellow_gem.png" type="Texture" id=2]
 
 [node name="yellow_gem" instance=ExtResource( 1 )]
-texture = ExtResource( 2 )
 type = 2
+
+[node name="gem" parent="." index="0"]
+texture = ExtResource( 2 )
