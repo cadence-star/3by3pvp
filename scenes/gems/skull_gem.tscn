@@ -4,5 +4,7 @@
 [ext_resource path="res://scenes/gem.tscn" type="PackedScene" id=2]
 
 [node name="skull_gem" instance=ExtResource( 2 )]
-texture = ExtResource( 1 )
 type = 4
+
+[node name="gem" parent="." index="0"]
+texture = ExtResource( 1 )

@@ -1,4 +1,4 @@
-extends Sprite
+extends Control
 
 
 export var type = -1
