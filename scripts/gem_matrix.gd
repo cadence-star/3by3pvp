@@ -33,36 +33,38 @@ func fill_matrix():
 	for row in 8:
 		for column in 8:
 			var gemType = randi()%7
-			while has_match(gemType, row, column):
+			while has_match(row, column, gemType):
 				gemType = randi()%7
 			var gem = gemTypes[gemType].instance()
 			add_child(gem)
 			gemMatrix[row][column] = gem
 
-func has_match(gemType, row, column):
+func has_match(row, column, gemType=null):
+	if gemType == null:
+		gemType = gemMatrix[row][column].type
 	return (
 		(
 			row > 1 and
-			gemMatrix[row-1][column] and
-			gemMatrix[row-2][column] and
+			gemMatrix[row-1][column] != null and
+			gemMatrix[row-2][column] != null and
 			gemMatrix[row-1][column].type == gemType and
 			gemMatrix[row-2][column].type == gemType
 		) or (
 			column > 1 and
-			gemMatrix[row][column-1] and
-			gemMatrix[row][column-2] and
+			gemMatrix[row][column-1] != null and
+			gemMatrix[row][column-2] != null and
 			gemMatrix[row][column-1].type == gemType and
 			gemMatrix[row][column-2].type == gemType
 		) or (
 			row < 6 and
-			gemMatrix[row+1][column] and
-			gemMatrix[row+2][column] and
+			gemMatrix[row+1][column] != null and
+			gemMatrix[row+2][column] != null and
 			gemMatrix[row+1][column].type == gemType and
 			gemMatrix[row+2][column].type == gemType
 		) or (
 			column < 6 and
-			gemMatrix[row][column+1] and
-			gemMatrix[row][column+2] and
+			gemMatrix[row][column+1] != null and
+			gemMatrix[row][column+2] != null and
 			gemMatrix[row][column+1].type == gemType and
 			gemMatrix[row][column+2].type == gemType
 		)
