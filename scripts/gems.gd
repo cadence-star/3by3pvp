@@ -1,4 +1,4 @@
-extends CanvasLayer
+extends GridContainer
 
 
 var gemMatrix = [
